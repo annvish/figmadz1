@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'Graphik';
-    src: url('fonts/GraphikRegular.otf') format('opentype');
+    src: url('/fonts/GraphikRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GraphikExtralight';
-    src: url('fonts/GraphikExtralight.otf') format('opentype');
+    src: url('/fonts/GraphikExtralight.otf') format('opentype');
     font-weight: lighter;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GraphikBold';
-    src: url('fonts/GraphikBold.otf') format('opentype');
+    src: url('/fonts/GraphikBold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GraphikMedium';
-    src: url('fonts/GraphikMedium.otf') format('opentype');
+    src: url('/fonts/GraphikMedium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +29,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('img/Rectangle_9.png') center top no-repeat, white;
+    background: url('/img/Rectangle_9.png') center top no-repeat, white;
     background-size: 100% 930px, auto;
     font-family: 'Graphik', sans-serif;
 }
