@@ -9,8 +9,22 @@
 <style>
     @font-face {
         font-family: 'Graphik';
-        src: url('fonts/GraphikLight.otf') format('otf');
+        src: url('fonts/GraphikRegular.otf') format('opentype');
         font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'GraphikExtralight';
+        src: url('fonts/GraphikExtralight.otf') format('opentype');
+        font-weight: lighter;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'GraphikBold';
+        src: url('fonts/GraphikBold.otf') format('opentype');
+        font-weight: bold;
         font-style: normal;
     }
 
@@ -18,13 +32,17 @@
         margin: 0;
         padding: 0;
         background: url('img/Rectangle_9.png') center top no-repeat, white;
-        background-size: auto 930px, auto;
+        background-size: 100% 930px, auto;
         font-family: 'Graphik', sans-serif;
     }
-
+    textarea, input {
+        font-family: 'Graphik', sans-serif;
+    }
+    
     h1 {
         font-size: 74px;
         line-height: 84px;
+        font-family: 'GraphikBold', sans-serif;
     }
 
     h2 {
@@ -43,6 +61,7 @@
     h4 {
         font-size: 28px;
         line-height: 40px;
+        font-family: 'GraphikExtralight', sans-serif;
     }
 
     h5 {
@@ -54,6 +73,7 @@
         font-size: 16px;
         color: #374754;
         margin: 0;
+        font-family: 'GraphikExtralight', sans-serif;
     }
 
     p {
@@ -373,9 +393,9 @@
                         <input type="text" name="your-email" placeholder="Your Email"
                             style="flex: 1; padding: 18px 15px; width: 353px; border-radius: 39px; border: 1px; background-color: #F4F4F4; outline: 1px solid #E8E8E8; margin: 15px 0;"
                             required>
-                        <input type="text" name="your-Message" placeholder="Your Message"
-                            style="width: 353px; height: 193px; background-color: #F5F5F5; border: 1px solid #E8E8E8; margin: 15px 0;  padding: 18px 15px;"
-                            required>
+                        <textarea name="your-Message" placeholder="Your Message"
+                            style="width: 353px; height: 193px; background-color: #F5F5F5; border: 1px solid #E8E8E8; margin: 15px 0; padding: 18px 15px;"
+                            required></textarea>
                         <button type="submit"
                             style="align-self: flex-start; background-color:#2091F9; text-align:center; border:0; border-radius:35px; padding: 18px 38px; margin: 20px 0; font-size: 20px; width: 145px; height: 56px; color:white;">Send</button>
                     </form>
