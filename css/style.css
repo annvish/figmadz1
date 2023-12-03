@@ -51,6 +51,7 @@ button {
 }
 
 .button-blue:hover {
+    cursor: pointer;
     background-color: white;
     color: #2091F9;
     border: 1px solid #2091F9;
@@ -143,4 +144,18 @@ a:hover {
     color: white;
     border-radius: 10px;
     border: 1px solid #DEDEDE;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+}
+
+.social-icons img{
+    margin-right: 12px;
+    padding:10px;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
 }
