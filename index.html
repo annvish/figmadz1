@@ -27,7 +27,13 @@
         font-weight: bold;
         font-style: normal;
     }
-
+    @font-face {
+        font-family: 'GraphikMedium';
+        src: url('fonts/GraphikMedium.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
     body {
         margin: 0;
         padding: 0;
@@ -39,6 +45,16 @@
         font-family: 'Graphik', sans-serif;
     }
     
+    button {
+        background-color:#2091F9;
+        color:white;
+        border:1px;
+        border-radius:35px;
+        text-align:center;        
+        font-size: 20px;        
+        font-family: 'GraphikExtralight', sans-serif;
+    }
+
     h1 {
         font-size: 74px;
         line-height: 84px;
@@ -49,6 +65,7 @@
         font-size: 48px;
         line-height: 55px;
         color: #252B42;
+        font-family: 'GraphikExtralight', sans-serif;
     }
 
     h3 {
@@ -131,7 +148,7 @@
             <h1>The best products </br> start with Figma</h1>
             <h4>Most calendars are designed for teams. Slate is designed </br> for freelancers</h4>
             <button type="submit" onclick="window.open('https://annvish.github.io/webcourse/', '_blank')"
-                style="background-color:#2091F9; text-align:center; border:0px; border-radius:35px; padding: 13px; font-size: 20px; width: 236px; height: 52px; color:white;">My
+                style="padding: 13px; width: 236px; height: 52px;">My
                 cats here</button>
         </section>
         <section style="text-align: center">
@@ -180,7 +197,7 @@
                 <h4 style="color: #374754;">Most calendars are designed for teams. <br /> Slate is designed for
                     freelancers</h4>
                 <button type="submit"
-                    style="background-color:#2091F9; text-align:center; border:1px; border-radius:35px; padding: 16px 0; font-size: 20px; width: 236px; height: 60px; color:white;">Try
+                    style="font-family: 'GraphikMedium';  padding: 16px 0; width: 236px; height: 60px;">Try
                     For Free</button>
             </div>
             <div style="margin-left: auto; margin-top: 30px;">
@@ -205,7 +222,7 @@
                             style="flex: 1; width: 273px; height: 28px; border-radius: 39px; padding: 15px 20px; border: 1px; background-color: #F4F4F4; outline: 1px solid #E8E8E8; margin-right: 15px;"
                             required>
                         <button type="submit"
-                            style="background-color:#2091F9; text-align:center; border:0; border-radius:35px; padding: 15px 38px; font-size: 20px; width: 172px; height: 58px; color:white;">Subscribe</button>
+                            style="padding: 15px 38px; width: 172px; height: 58px;">Subscribe</button>
                     </form>
                 </fieldset>
             </div>
@@ -221,61 +238,61 @@
             <div style="display: flex; justify-content: space-around; ">
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 273px; height: 163px;">
-                    <h6 style="font-size: 16px; color: #374754;">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
                     <img src="img/logos_google.png" alt="logos_google"
-                        style="width:193px; height:63px; padding: 40px 0;">
+                        style="width:193px; height:63px; padding: 20px 0;">
                 </div>
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 273px; height: 163px;">
-                    <h6 style="font-size: 16px; color: #374754;">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
-                    <img src="img/amazon.png" alt="amazon" style="width:193px; height:63px; padding: 40px 0;">
+                    <img src="img/amazon.png" alt="amazon" style="width:193px; height:63px; padding: 20px 0;">
                 </div>
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 273px; height: 163px;">
-                    <h6 style="font-size: 16px; color: #374754;">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
-                    <img src="img/microsoft.png" alt="microsoft" style="width:193px; height:63px; padding: 40px 0;">
+                    <img src="img/microsoft.png" alt="microsoft" style="width:193px; height:63px; padding: 20px 0;">
                 </div>
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 220px; height: 165px;">
-                    <h6 style="font-size: 16px; color: #374754;">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
-                    <img src="img/uber.png" alt="uber" style="width:140px; height:77px; padding: 40px 0;">
+                    <img src="img/uber.png" alt="uber" style="width:140px; height:77px; padding: 20px 0;">
                 </div>
             </div>
             <div style="display: flex; justify-content: space-around; ">
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 309px; height: 163px;">
-                    <h6 style="font-size: 16px; color: #374754;">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
-                    <img src="img/dropbox.png" alt="dropbox" style="width:229px; height:46px; padding: 40px 0;">
+                    <img src="img/dropbox.png" alt="dropbox" style="width:229px; height:46px; padding: 20px 0;">
                 </div>
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 273px; height: 163px;">
-                    <h6 style="font-size: 16px; color: #374754;">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
                     <img src="img/logos_google.png" alt="logos_google"
-                        style="width:193px; height:63px; padding: 40px 0;">
+                        style="width:193px; height:63px; padding: 20px 0;">
                 </div>
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 220px; height: 165px;">
-                    <h6 style="font-size: 16px; color: #374754; ">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
-                    <img src="img/uber.png" alt="uber" style="width:140px; height:77px; padding: 40px 0;">
+                    <img src="img/uber.png" alt="uber" style="width:140px; height:77px; padding: 20px 0;">
                 </div>
                 <div
                     style="margin-right: 15px; padding: 10px 25px; border: 1px solid #D8D8D8; width: 273px; height: 163px;">
-                    <h6 style="font-size: 16px; color: #374754; ">Client Name
+                    <h6 style="font-size: 16px; color: #374754; margin: 12px 0;">Client Name
                     </h6>
-                    <img src="img/amazon.png" alt="amazon" style="width:193px; height:63px; padding: 40px 0;">
+                    <img src="img/amazon.png" alt="amazon" style="width:193px; height:63px; padding: 20px 0;">
                 </div>
             </div>
         </section>
         <section style="text-align: center; padding: 40px 0;">
             <button type="submit"
-                style="background-color:#2091F9; text-align:center; border:1px; border-radius:35px; padding: 16px 0; font-size: 20px; width: 236px; height: 60px; color:white;">Try
+                style="padding: 16px 0; width: 236px; height: 60px; font-family: 'GraphikMedium'; ">Try
                 For Free</button>
         </section>
         <section style="text-align: center; padding: 40px 0;">
@@ -301,7 +318,7 @@
             </div>
             <div style="margin:auto; padding: 40px 0; ">
                 <button type="submit"
-                    style="background-color:#2091F9; text-align:center; border:1px; border-radius:35px; padding: 16px 0; font-size: 20px; width: 276px; height: 60px; color:white;">More
+                    style="font-family: 'GraphikMedium'; padding: 16px 0; width: 276px; height: 60px;">More
                     Testimonials</button>
             </div>
         </section>
@@ -329,7 +346,7 @@
                         <li style="padding-top: 10px;">Pricing Feature</li>
                     </ul>
                     <button type="submit"
-                        style="background-color:#2091F9; text-align:center; border:0; border-radius:35px; padding: 18px 38px; margin: 20px 0; font-size: 20px; width: 255px; height: 56px; color:white;">Order
+                        style="padding: 18px 38px; margin: 20px 0; width: 255px; height: 56px;">Order
                         Now</button>
                 </div>
 
@@ -348,7 +365,7 @@
                         <li style="padding-top: 10px;">Pricing Feature</li>
                     </ul>
                     <button type="submit"
-                        style="background-color:white; text-align:center; border:0; border-radius:35px; padding: 18px 38px; margin: 20px 0; font-size: 20px; width: 255px; height: 56px; color:#2091F9;">Order
+                        style="background-color:white; padding: 18px 38px; margin: 20px 0; width: 255px; height: 56px; color:#2091F9;">Order
                         Now</button>
                 </div>
 
@@ -368,7 +385,7 @@
                         <li style="padding-top: 10px;">Pricing Feature</li>
                     </ul>
                     <button type="submit"
-                        style="background-color:#2091F9; text-align:center; border:0; border-radius:35px; padding: 18px 38px; margin: 20px 0; font-size: 20px; width: 255px; height: 56px; color:white;">Order
+                        style="padding: 18px 38px; margin: 20px 0; width: 255px; height: 56px;">Order
                         Now</button>
                 </div>
             </div>
@@ -397,7 +414,7 @@
                             style="width: 353px; height: 193px; background-color: #F5F5F5; border: 1px solid #E8E8E8; margin: 15px 0; padding: 18px 15px;"
                             required></textarea>
                         <button type="submit"
-                            style="align-self: flex-start; background-color:#2091F9; text-align:center; border:0; border-radius:35px; padding: 18px 38px; margin: 20px 0; font-size: 20px; width: 145px; height: 56px; color:white;">Send</button>
+                            style="padding: 18px 38px; margin: 20px 0; width: 145px; height: 56px; ">Send</button>
                     </form>
                 </fieldset>
 
