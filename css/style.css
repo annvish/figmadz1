@@ -57,6 +57,10 @@ button {
     font-family: 'Graphik', sans-serif;
 }
 
+figure {
+    margin: 0;
+}
+
 h1 {
     font-size: 74px;
     line-height: 84px;
